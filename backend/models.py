@@ -21,7 +21,6 @@ def load_saliency():
 
 
 def load_text_recognize():
-    # text recognition
     config = Cfg.load_config_from_name("vgg_seq2seq")
     config["cnn"]["pretrained"] = False
     config["device"] = cf.device

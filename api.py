@@ -2,14 +2,12 @@ import os
 import time
 import json
 import uuid
-
-import imageio
 import base64
 from io import BytesIO
 
+import imageio
 import numpy as np
 from PIL import Image
-
 from fastapi import FastAPI, File, UploadFile
 
 from backend.models import load_text_detect, load_text_recognize, load_saliency
@@ -22,7 +20,6 @@ from backend.backend_utils import (
 )
 from backend.text_detect.config import craft_config
 from backend.saliency.infer import run_saliency
-
 import configs as cf
 
 app = FastAPI()
