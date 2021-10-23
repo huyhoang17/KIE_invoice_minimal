@@ -10,9 +10,13 @@
 - Text recognition: VietOCR and an in-house text-recognition model
 - KIE: Graph Convolution
 
+### Pretrained model
+
+- [Google Drive](https://drive.google.com/file/d/10qveX-0PpS9TtJdFX0ID0ZqNLw3X3jUt/view?usp=sharing)
+
 ### Preprocessed data
 
-TODO
+- [Google Drive](https://drive.google.com/file/d/14zXVyu-wA_Rg0bb4Vmz3ElFkATI25kbH/view?usp=sharing)
 
 ### Pipeline
 
