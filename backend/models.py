@@ -3,7 +3,7 @@ from vietocr.tool.config import Cfg
 from vietocr.tool.predictor import Predictor
 
 import configs as cf
-from models.saliency.models import U2NETP
+from models.saliency.u2net import U2NETP
 from backend.text_detect.craft_utils import get_detector
 
 

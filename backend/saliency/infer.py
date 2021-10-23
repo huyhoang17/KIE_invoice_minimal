@@ -6,7 +6,7 @@ from torch.autograd import Variable
 
 import configs as cf
 from backend.backend_utils import timer
-from models.saliency.data_loader import SalObjDataset, RescaleT, ToTensorLab, normPRED
+from backend.saliency.data_loader import SalObjDataset, RescaleT, ToTensorLab, normPRED
 
 
 @timer
