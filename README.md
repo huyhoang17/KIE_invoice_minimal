@@ -12,6 +12,8 @@
 - Text recognition: VietOCR and an in-house text-recognition model
 - KIE: Graph Convolution
 
+> Currently, I dont have the invoice-direction classifier model. But you can also develop a model to rotate the image if the image is rotated horizontally or upside down.
+
 ### Pretrained model
 
 - [Google Drive](https://drive.google.com/file/d/10qveX-0PpS9TtJdFX0ID0ZqNLw3X3jUt/view?usp=sharing)
@@ -62,3 +64,4 @@ Then access the localhost server at: 0.0.0.0:7778
 - CRAFT: https://github.com/clovaai/CRAFT-pytorch
 - VietOCR: https://github.com/pbcquoc/vietocr
 - Benchmarking GNNs: https://github.com/graphdeeplearning/benchmarking-gnns
+- PaddleOCR: https://github.com/PaddlePaddle/PaddleOCR
