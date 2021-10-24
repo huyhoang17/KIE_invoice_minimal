@@ -225,7 +225,7 @@ def run_ocr(text_detector, detector, warped_img, craft_config):
         craft_config["link_threshold"],
         craft_config["low_text"],
         False,
-        "cuda",
+        cf.device,
     )
     cells = [{"poly": i} for i in textboxes]
     cells = get_ocr_result(detector, warped_img, cells)

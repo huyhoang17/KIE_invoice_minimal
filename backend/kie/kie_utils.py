@@ -31,7 +31,9 @@ def load_gate_gcn_net(device, checkpoint_path):
 
     model = GatedGCNNet(net_params)
 
-    checkpoint = torch.load(checkpoint_path)
+    checkpoint = torch.load(
+        checkpoint_path, map_location=torch.device(cf.device)
+    )
     model.load_state_dict(checkpoint)
 
     model = model.to(device)
