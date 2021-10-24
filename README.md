@@ -1,4 +1,6 @@
-# Information Extraction from Invoice
+# Key Information Extraction from Scanned Invoices
+
+> Key information extraction from invoice document with Graph Convolution Network
 
 - Related blog post from my Viblo account: https://viblo.asia/p/djeZ1yPGZWz 
 
@@ -14,9 +16,10 @@
 
 - [Google Drive](https://drive.google.com/file/d/10qveX-0PpS9TtJdFX0ID0ZqNLw3X3jUt/view?usp=sharing)
 
-### Preprocessed data
+### Data
 
-- [Google Drive](https://drive.google.com/file/d/14zXVyu-wA_Rg0bb4Vmz3ElFkATI25kbH/view?usp=sharing)
+- MC-OCR, a Vietnamese receipts dataset: https://aihub.vn/competitions/1
+- Preprocessed data: [Google Drive](https://drive.google.com/file/d/14zXVyu-wA_Rg0bb4Vmz3ElFkATI25kbH/view?usp=sharing)
 
 ### Pipeline
 
@@ -48,9 +51,13 @@ Then access the localhost server at: 0.0.0.0:7778
 
 ![](./assets/demo_kie_invoice.png)
 
+### TODO
+
+- Add preprocess data script
 
 ### Reference
 
+- MC-OCR dataset: https://aihub.vn/competitions/1
 - U2Net: https://github.com/xuebinqin/U-2-Net
 - CRAFT: https://github.com/clovaai/CRAFT-pytorch
 - VietOCR: https://github.com/pbcquoc/vietocr
