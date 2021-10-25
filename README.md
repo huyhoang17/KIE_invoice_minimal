@@ -7,7 +7,7 @@
 ### Models
 
 - Background subtraction: U2Net
-- Image alignment: based-on output of text-detection & cv2
+- Image alignment: computer vision techniques, cv2
 - Text detection: CRAFT and an in-house text-detection model
 - Text recognition: VietOCR and an in-house text-recognition model
 - KIE: Graph Convolution
@@ -21,7 +21,7 @@
 ### Data
 
 - MC-OCR, a Vietnamese receipts dataset: https://aihub.vn/competitions/1
-- Preprocessed data: [Google Drive](https://drive.google.com/file/d/14zXVyu-wA_Rg0bb4Vmz3ElFkATI25kbH/view?usp=sharing)
+- Preprocessed data: [Google Drive](https://drive.google.com/file/d/1KOKuhPErYlJs7l_54lNYfa4Z0DOFMQlm/view?usp=sharing)
 
 ### Pipeline
 
