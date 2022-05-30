@@ -16,7 +16,8 @@
 
 ### Pretrained model
 
-- [Google Drive](https://drive.google.com/file/d/10qveX-0PpS9TtJdFX0ID0ZqNLw3X3jUt/view?usp=sharing)
+- [Google Drive](https://drive.google.com/file/d/1VA9hbj3rFlvWimzqoNSrwInIK43qYBLv/view?usp=sharing)
+
 
 ### Data
 
